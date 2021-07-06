@@ -1,0 +1,162 @@
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgb(131, 122, 122);
+}
+.link-font{
+    font-family: 'Lato', sans-serif;
+    font-size: larger;
+}
+.nav-link a:hover{
+    border-bottom: rgb(114, 105, 105);
+}
+.carousel-caption{
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+blockquote {
+	padding: 6px 16px;
+	border: none;
+	quotes: "\201C" "\201D";
+    display: inline-block;
+}
+blockquote p:before { 
+    content: open-quote;
+    font-weight: bold;
+} 
+blockquote p:after { 
+    content: close-quote;
+    font-weight: bold;
+}
+.quotes{
+    width:100%;
+    height: 270px;
+}
+.quotes-content{
+    padding-left: 40px;
+    padding-right:35px ;
+    padding-bottom: 10%;
+    padding-top: 7%;
+    text-align: center;
+}
+
+.font3{
+    text-align: center;
+    padding-bottom: 1%;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Mate SC', serif;
+    font-family: 'PT Sans', sans-serif;
+}
+.about-content{
+    padding-left: 7%;
+    padding-right: 7%;
+    text-overflow: clip;
+    font-family: 'PT Serif', serif;
+}
+.menu-head{
+    padding-top:15%;
+    padding-left: 25%;
+}
+.col-content{
+    padding-left: 25%;
+    padding-right: 0%;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+.tablink:hover {
+    background-color: #777;
+}
+  
+  /* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: rgb(184, 174, 174);
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+  
+#list-background{
+    background-color: rgb(184, 174, 174);
+}
+.wrap{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(15, 158, 184);
+    font-size: larger;
+}
+#thumb-header{
+    padding-top: 0%;
+    text-align: center;
+}
+
+.thumbnail-content{
+    padding-top: 30px;
+}
+
+#event-header{
+    padding-top: 10px;
+}
+#event-content{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+#event-main-content{
+    padding-top:20px;
+}
+.reservation{
+    padding-top: 10px;
+}
+#reservation-content{
+    padding-left: 7%;
+    padding-right: 7%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+.footer-content{
+    padding-top:10%;
+}
+.icons1{
+    color: rgb(77, 71, 71);
+}
+.important-link{
+    padding-top:3%;
+}
+.register-for-free{
+    padding-top: 5%;
+}
